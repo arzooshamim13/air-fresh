@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Luckiest+Guy&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Lobster'; */
+}
+.main{
+   width: 100%;
+   height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://www.travelandleisure.com/thmb/h97kSvljd2QYH2nUy3Y9ZNgO_pw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plane-data-BUSYROUTES1217-f4f84b08d47f4951b11c148cee2c3dea.jpg");
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+nav{
+    /* border: 2px solid red; */
+    text-align: right;
+    padding: 20px;
+    font-family: 'Poetsen One';
+
+;
+ 
+}
+.ft{
+    /* display: inline-block; */
+    text-transform: uppercase;
+   font-family: 'Luckiest Guy';
+    width: 70%;
+    font-size: 20px;
+    margin-right: 90px;
+    color: black;
+    text-decoration: none;
+    /* text-align: right; */
+}
+.list{
+    width: 10%;
+    display: inline-block;
+   margin-right: 80px;
+    text-decoration: none;
+    color: black;
+}
+.list:hover{
+    text-decoration: underline 4px solid rgb(255, 255, 255);
+    transition-duration: 1s;
+}
+.er{
+    margin-left: 50px;
+    padding: 5px;
+    border-radius : 20px ;
+    outline: none;
+    background-color: rgba(224, 218, 218, 0.664);
+    border: none;
+
+}
+h1{
+    margin-top: 20%;
+    text-align: right;
+    margin-right: 10%;
+    font-family: 'Lobster';
+}
+.free{
+    margin-top: 2%;
+    text-align: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-family: 'Merriweather Sans';
+}
+.gt{
+    margin-top: 5%;
+    text-align: right;
+    margin-left: 74%;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Poetsen One';
+
+}
+.gt:hover{
+    background-color: rgb(4, 105, 187);
+    text-decoration: double;
+    transition-duration: 1s;
+
+}
+/* .......................... */
+.may{
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://t3.ftcdn.net/jpg/04/98/66/02/360_F_498660266_nGfbwh1lr2vReDHPPV1ZCAYlTxnX6lXi.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5%;
+
+}
+.freedom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    margin-top: 7%;
+    text-align: center;
+    /* margin-right: 10%; */
+    font-family: 'Lobster';
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.yre{
+    height: 80vh;
+    width: 50%;
+    margin-left: 3%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-bottom: 10%;
+}
+.des{
+    margin-top: 5%;
+    height: 95vh;
+    width: 40%;
+    font-family: 'Merriweather Sans';
+    margin-right: 5%;
+}
+/* ............................ */
+
+.air{
+    
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-bottom: 10%; */
+    color: white;
+}
+
+
+.hostes{
+    height: 95vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+
+}
+.tre{
+    border:2px solid black;
+    border-radius:20px ;
+    width: 105%;
+    margin-left: 5%;
+}
+/* ..................? */
+.services{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://wallpapercave.com/wp/wp10684089.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* margin-bottom: 10%; */
+        color: white;
+}
+.serve{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.red{
+    height: 60vh;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.side{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://plus.unsplash.com/premium_photo-1679758630312-a3d601c411d8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGxhbmV8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* margin-bottom: 10%; */
+        /* color: white; */
+}
+.emil{
+    font-family: 'Poetsen One';
+    margin: 30px;
+    color: white;
+}
+
+
+
+
+
+/* .................................................................................. */
+
+.book{
+    /* border: 2px solid black;  */
+   
+}
+.hub{
+    /* width: 40%;
+    height: 50vh;
+    margin-top: 20px;
+
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://cos.h-cdn.co/assets/16/20/4000x2000/landscape-1463760296-gettyimages-126171246.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+h3{
+    /* margin-top: 7%; */
+    text-align: center;
+    /* margin-right: 10%; */
+    font-family: 'Lobster';
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.web{
+    display: inline;
+    margin-top: 90px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    border-bottom: 4px solid white;
+    color: white;
+    
+}
+.wep{
+    /* display: inline; */
+    /* margin-top: 50px; */
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    border-bottom: 4px solid white;
+    
+}
+.wej{
+    /* display: inline; */
+    /* margin-top: 50px; */
+    margin-left: 40px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    border-bottom: 4px solid white;
+    
+}
+#weu{
+    /* display: inline; */
+    /* margin-top: 50px; */
+    margin-left: 40px;
+    padding: 10px 2px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    border-bottom: 4px solid white;
+    
+}
+select{
+    padding: 10px 80px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    border-bottom: 4px solid white;
+    margin-bottom: 10px;
+
+
+}
+.gr{
+    margin-left: 10%;
+    padding: 10px 20px;
+    font-family: 'Merriweather Sans';
+    border-radius: 15px;
+    background: none;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    margin-top: 20px;
+}
+.gr:hover{
+    border: 2px solid white;
+}
+    
